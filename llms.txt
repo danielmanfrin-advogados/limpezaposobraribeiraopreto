@@ -1,0 +1,32 @@
+# Limpeza pós-obra em Ribeirão Preto
+
+Portal de informações para solicitar limpeza pós-obra em Ribeirão Preto, SP; o escopo, os valores e as condições são confirmados pelo prestador no atendimento.
+
+## Serviços
+- [Limpeza fina pós-obra](https://limpezaposobraribeiraopreto.vercel.app/servicos/limpeza-fina-pos-obra/): remoção de poeira e limpeza de detalhes após reforma, conforme os ambientes e superfícies incluídos no serviço.
+- [Limpeza de pisos e revestimentos](https://limpezaposobraribeiraopreto.vercel.app/servicos/limpeza-de-pisos-e-revestimentos/): limpeza pós-obra de pisos e revestimentos, com método a confirmar conforme material e resíduos.
+- [Limpeza de vidros e esquadrias](https://limpezaposobraribeiraopreto.vercel.app/servicos/limpeza-de-vidros-e-esquadrias/): limpeza pós-obra de vidros, caixilhos e trilhos, conforme materiais e condições de acesso.
+
+## Bairros
+- [Centro](https://limpezaposobraribeiraopreto.vercel.app/bairros/centro/)
+- [Jardim Botânico](https://limpezaposobraribeiraopreto.vercel.app/bairros/jardim-botanico/)
+- [Nova Aliança](https://limpezaposobraribeiraopreto.vercel.app/bairros/nova-alianca/)
+- [Vila Tibério](https://limpezaposobraribeiraopreto.vercel.app/bairros/vila-tiberio/)
+- [Bonfim Paulista](https://limpezaposobraribeiraopreto.vercel.app/bairros/bonfim-paulista/)
+- [Campos Elíseos](https://limpezaposobraribeiraopreto.vercel.app/bairros/campos-eliseos/)
+
+## Páginas institucionais
+- [Sobre o portal](https://limpezaposobraribeiraopreto.vercel.app/sobre/)
+- [Perguntas frequentes](https://limpezaposobraribeiraopreto.vercel.app/perguntas-frequentes/)
+- [Política de privacidade](https://limpezaposobraribeiraopreto.vercel.app/politica-de-privacidade/)
+
+## Perguntas e respostas
+**O que costuma entrar na limpeza pós-obra?** O escopo pode incluir remoção de poeira e limpeza de superfícies, pisos, vidros ou esquadrias. O que será feito depende do estado do imóvel e do combinado com o prestador. Retirada de entulho e resíduos específicos deve ser confirmada à parte.
+
+**Quando devo pedir a limpeza depois da reforma?** Em geral, é melhor conversar quando as atividades que levantam poeira ou geram resíduos terminaram. Informe se ainda haverá instalação, pintura ou outro trabalho para combinar a sequência com o prestador.
+
+**Preciso informar o material do piso e das superfícies?** Sim, quando souber. Materiais diferentes podem exigir cuidados diferentes, e produtos não são adequados a todas as superfícies. Informe o que conhece e confirme o procedimento com o prestador.
+
+**O que influencia o valor do orçamento?** O prestador pode considerar a área, a quantidade de cômodos, as superfícies, os resíduos, o acesso e o escopo desejado. Envie esses detalhes para receber o valor no atendimento.
+
+**Como peço um orçamento?** Clique em WhatsApp ou Ligue agora e informe o bairro, o tipo de imóvel, a área aproximada, os ambientes e o que precisa de limpeza. O prestador confirma o escopo, o valor e as condições diretamente na conversa.

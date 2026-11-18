@@ -1,0 +1,60 @@
+DOMINIO_BASE=https://limpezaposobraribeiraopreto.vercel.app
+
+LIMPEZA PÓS-OBRA EM RIBEIRÃO PRETO
+
+Este projeto é um portal estático de contato. Ele usa HTML, CSS e JavaScript puros e contém 13 páginas reais, textos presentes no HTML, SEO por página e registro dos cliques nos botões de WhatsApp e telefone.
+
+ESTRUTURA
+- index.html: página inicial.
+- servicos/: limpeza fina pós-obra, limpeza de pisos e revestimentos, limpeza de vidros e esquadrias.
+- bairros/: Centro, Jardim Botânico, Nova Aliança, Vila Tibério, Bonfim Paulista e Campos Elíseos.
+- sobre/, perguntas-frequentes/, politica-de-privacidade/: páginas institucionais.
+- style.css, tracker.js e config.js: arquivos comuns às páginas.
+- apps-script/Code.gs: script de registro de cliques.
+- img/: cinco fotos JPG, fallbacks neutros e prompts de regeneração.
+- sitemap.xml e robots.txt: instruções de descoberta e rastreamento.
+- llms.txt: informações resumidas para mecanismos de respostas de IA.
+
+COMO TROCAR O WHATSAPP E O TELEFONE
+1. Abra config.js em um editor de texto.
+2. Troque os dois valores 5516900000000 pelo número real, com 55, DDD e número, somente dígitos. Exemplo de formato: 5516999999999.
+3. Salve o arquivo. Todas as páginas usam a mesma configuração; não é necessário alterar cada HTML.
+4. Faça uma ligação de teste e clique em WhatsApp para verificar os destinos. O número fornecido é provisório e deve ser substituído antes da publicação.
+
+PLANILHA GOOGLE E APPS SCRIPT
+O endpoint já está configurado em config.js. Para revisar ou atualizar o código:
+1. Abra a planilha de registro de cliques.
+2. Selecione Extensões > Apps Script.
+3. Cole o conteúdo de apps-script/Code.gs, substituindo o código anterior.
+4. Antes da implantação, abra Configurações do projeto no Apps Script e crie uma Propriedade do script chamada TOKEN com um segredo aleatório forte. Nunca publique esse valor no GitHub. O Code.gs lê TOKEN das propriedades do script; se não estiver configurado, os POSTs autenticados são recusados. Os registros GET dos cliques do site continuam funcionando.
+5. Execute a função setup() uma vez e aceite as permissões solicitadas pelo Google. A função prepara os cabeçalhos e a aba Resumo.
+6. Se já existe uma implantação, selecione Implantar > Gerenciar implantações > editar a implantação existente > Nova versão > Implantar. Assim a URL da implantação continua a mesma.
+7. Configure o acesso como Qualquer pessoa, conforme necessário para receber os cliques do site.
+8. Abra a URL /exec no navegador e confira a mensagem de versão indicada nos comentários do Code.gs.
+
+Para montar um relatório de um site específico, na planilha use Inserir > Tabela dinâmica. Coloque Site em Linhas e conte a coluna Botão (ou Ação, se esse for o cabeçalho da versão da sua planilha) em Valores. O script organiza a aba Cliques por site, botão, posição e página.
+
+IMAGENS
+As cinco imagens ilustrativas foram geradas, convertidas para JPG e incluídas em img/: hero.jpg (1600x900), sobre.jpg (1000x750) e uma imagem 1000x750 para cada serviço. Os arquivos estão comprimidos para cerca de 150 KB ou menos e são usados diretamente pelas páginas. A pasta img/PROMPTS.txt guarda os prompts se for necessário gerar novas versões. Fotos enviadas por um prestador podem substituir os arquivos mantendo exatamente os mesmos nomes. Não descreva uma imagem ilustrativa como foto do prestador, da equipe, de um veículo ou de uma empresa.
+
+PUBLICAR NA VERCEL
+1. Envie a pasta do projeto para um repositório GitHub chamado limpezaposobraribeiraopreto. Não inclua números reais de telefone antes de confirmar que devem ser públicos.
+2. Na Vercel, importe o repositório.
+3. Selecione Framework Preset: Other. O projeto usa build estático; deixe a instalação sem dependências de framework. Use Build Command npm run build e Output Directory dist. O vercel.json já declara essas opções.
+4. A raiz do repositório é a pasta que contém package.json, build.js e index.html. Não crie uma etapa React, Vite ou Tailwind. O build usa só Node nativo e não requer pacote instalado.
+5. O domínio canônico configurado nas páginas, no sitemap e neste guia é https://limpezaposobraribeiraopreto.vercel.app. Se o domínio final for diferente, atualize a variável DOMINIO_BASE deste guia e os endereços absolutos nos HTML, sitemap.xml e llms.txt antes de solicitar indexação.
+
+GOOGLE SEARCH CONSOLE
+1. Abra o Google Search Console e adicione a propriedade de prefixo de URL correspondente ao domínio publicado.
+2. Conclua a verificação de propriedade usando um método oferecido pelo Google, como registro DNS ou arquivo HTML, conforme o tipo da propriedade.
+3. Depois da publicação, abra a área Sitemaps, informe sitemap.xml e envie.
+4. Use a inspeção de URL para verificar a página inicial e páginas de serviço. Reenvie o sitemap quando houver mudança importante nas rotas.
+
+PERFIL DA EMPRESA NO GOOGLE
+Considere criar um Perfil da Empresa no Google somente quando houver um prestador real com endereço elegível e confirmado. Não cadastre o portal com endereço fictício nem apresente o portal como local físico de atendimento.
+
+BUILD LOCAL
+Em Node.js, execute npm run build. A pasta dist será recriada com os arquivos públicos do site. O package.json não declara dependências. Não é necessário executar uma instalação de frameworks.
+
+IMPORTANTE
+Substitua os números provisórios antes de divulgar o site. O conteúdo é informativo e não substitui a confirmação do escopo, compatibilidade de materiais, preço, prazo, acesso ou forma de pagamento diretamente com o prestador.

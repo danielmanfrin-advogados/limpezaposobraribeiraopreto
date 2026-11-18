@@ -1,0 +1,20 @@
+FOTOS ILUSTRATIVAS DO SITE
+
+As cinco imagens abaixo foram geradas, baixadas do Preview, convertidas para JPG e incluídas nesta pasta: hero.jpg, sobre.jpg e uma foto por serviço. Os prompts estão registrados para facilitar uma regeneração futura. O site usa os caminhos locais /img/<nome>.jpg e também mantém fallbacks neutros para os casos em que um arquivo seja removido.
+
+hero.jpg, horizontal 1600x900:
+Photorealistic casual smartphone photo, wide horizontal banner for a Brazilian post-construction cleaning service website. A bright, recently renovated but still dusty apartment living room, sunlight from a large window, a vacuum and folded microfiber cloths near the wall, a clean and calm everyday work setting. Natural light, slight imperfect handheld framing, documentary realism, warm neutral cream and muted teal details, no people, no text, no logos, no brand marks, no readable signs, no staged catalog look. Leave uncluttered visual space around the left-center for white website headline overlay.
+
+sobre.jpg, 4:3, 1000x750:
+Photorealistic casual smartphone photograph, 4:3 landscape, close but natural view of post-renovation cleaning in a modest freshly renovated home. A microfiber cloth and simple unbranded cleaning tools beside a clean tiled surface, soft natural window light, realistic lived-in work environment, slight amateur framing imperfection, neutral warm color palette with muted teal accents. No people or faces, no text, logos, brand marks, readable signage or glossy commercial styling.
+
+limpeza-fina-pos-obra.jpg, 4:3, 1000x750:
+Photorealistic casual smartphone photo, 4:3 landscape, final-detail cleaning after a small residential renovation: unbranded microfiber cloth wiping fine construction dust from a white built-in shelf, clean interior in the background, soft daylight, natural imperfect handheld framing, ordinary real work environment, warm neutral tones and subtle teal cloth. No visible person or face, no text, no logos, no brands, no readable signs, not a staged stock photo.
+
+limpeza-de-pisos-e-revestimentos.jpg, 4:3, 1000x750:
+Photorealistic casual smartphone photograph, 4:3 landscape, post-construction cleaning of a newly installed light ceramic tile floor in an ordinary home. Mop bucket and a plain unbranded microfiber mop in foreground, a partly cleaned surface showing dust removal without before/after graphics, natural daylight, authentic slightly imperfect composition, clean cream and muted teal palette. No people, faces, text, logos, brand marks or readable signs. Not a glossy commercial catalog shot.
+
+limpeza-de-vidros-e-esquadrias.jpg, 4:3, 1000x750:
+Photorealistic casual smartphone photo, 4:3 landscape, post-renovation window cleaning in a simple modern home: a clean pane of glass and white window frame with a plain unbranded squeegee and folded cloth on the sill, gentle daylight, understated domestic setting, slight handheld imperfection and real documentary feel, neutral cream with muted teal detail. No people or faces, no text, logo, brand marks or legible signage, avoid polished stock photo style.
+
+Quando receber fotos reais do prestador, substitua os arquivos locais mantendo exatamente os mesmos nomes. Não atribua fotos ilustrativas a um prestador, equipe, veículo ou empresa.
